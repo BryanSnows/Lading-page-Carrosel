@@ -1,5 +1,7 @@
 import { Carousel } from 'react-bootstrap';
-import jp from '../img/fund.jpeg'
+import jp from '../img/slide2.jpg';
+import pizza from '../img/logo.png';
+import ja from '../img/slide3.jpg';
 import styles from "../components/Carrosel.module.css";
 
 
@@ -8,27 +10,25 @@ function Carrosel() {
     return (
         <div class={styles.car}>
             <Carousel>
-                <Carousel.Item>
-                    <img class={styles.img} src={jp} alt="First slide" />
+                <Carousel.Item className={styles.iten}>
+                    <img className={styles.img} src={pizza} alt="First slide" />
                     <Carousel.Caption className={styles.text}>
-                        <h3>vain</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Sejam Bem-Vindos</h3>
+                        <p><strong>Login page do Bryan não pode faltar pizza e muita diverssão.</strong></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img class={styles.img} src={jp} alt="First slide" />
-
+                    <img src={jp}  className={styles.img} alt="First slide" />
                     <Carousel.Caption className={styles.text}>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Mundo de Bryan</h3>
+                        <p>Aqui você pode ver minha caminhas como desenvolvedor e meus projetos.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img class={styles.img} src={jp} alt="First slide" />
-
+                    <img src={ja}  className={styles.img} alt="First slide" />
                     <Carousel.Caption className={styles.text}>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Gostou do que viu ?</h3>
+                        <p>Acesse meu curriculo e me conheça mais profissionalmente.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

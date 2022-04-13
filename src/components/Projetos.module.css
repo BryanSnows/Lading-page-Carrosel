@@ -1,0 +1,54 @@
+.div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -150px ;
+}
+
+
+
+.ul {
+    list-style: none;
+    padding: 3em;
+}
+
+
+
+.card1 {
+    width: 400px;
+    background-color: #3971eb;
+    border-radius: 40px;
+}
+.card2 {
+    width: 400px;
+    background-color: #1c7117;
+    border-radius: 40px;
+}
+.card3 {
+    width: 400px;
+    background-color: #f97f6c;
+    border-radius: 40px;
+}
+.card4 {
+    width: 400px;
+    background-color: #3971eb;
+    border-radius: 40px;
+}
+.card5 {
+    width: 400px;
+    background-color: #1c7117;
+    border-radius: 40px;
+}
+.card6 {
+    width: 400px;
+    background-color: #f97f6c;
+    border-radius: 40px;
+}
+.title {
+    font-size: 24px;
+    
+}
+
+.tex {
+    font-size: 18px;
+    text-align: justify
+}
